@@ -6,8 +6,8 @@ ruby ./lib/draw.rb
 ```
 
 And our winners were
-{:shortcode=>"http://instagram.com/p/B3DxeoUpEey", :owner=>"https://i.instagram.com/api/v1/users/4114474002/info", :timestamp=>2019-09-30 20:33:00 -0600}
-{:shortcode=>"http://instagram.com/p/B3A-Gi9By1T", :owner=>"https://i.instagram.com/api/v1/users/5750707/info", :timestamp=>2019-09-29 18:25:35 -0600}
+{:shortcode=>"http://instagram.com/p/B3IKLf2HgZs", :owner=>"https://i.instagram.com/api/v1/users/9244672624/info", :timestamp=>2019-10-02 13:25:48 -0600}
+{:shortcode=>"http://instagram.com/p/B3GS2G6AxME", :owner=>"https://i.instagram.com/api/v1/users/7825051/info", :timestamp=>2019-10-01 20:03:02 -0600}
 
 ## Instagram hashtag graph
 https://www.instagram.com/explore/tags/accessyeg/?__a=1

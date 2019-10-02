@@ -5,8 +5,8 @@ require 'date'
 require 'net/http'
 
 URL = 'https://www.instagram.com/explore/tags/accessyeg/?__a=1'
-BEGIN_OF_CONTEST = 'Monday, September 30, 2019 at 12:00 am'
-END_OF_CONTEST = 'Wednesday, October 2, 2019 at 2:00 pm'
+BEGIN_OF_CONTEST = '2019-09-30 00:00:00 -0600' # 'Monday, September 30, 2019 at 12:00 am'
+END_OF_CONTEST = '2019-10-02 14:00:00 -0600' # 'Wednesday, October 2, 2019 at 2:00 pm'
 ACCESSLIBCON_USER = '7953974014'
 NUMBER_OF_WINNERS = 2
 
