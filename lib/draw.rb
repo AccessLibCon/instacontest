@@ -6,6 +6,7 @@ URL = "https://www.instagram.com/explore/tags/accessyeg/?__a=1"
 BEGIN_OF_CONTEST = "Monday, September 30, 2019 at 12:00 am"
 END_OF_CONTEST = "Wednesday, October 2, 2019 at 2:00 pm"
 ACCESSLIBCON_USER = '7953974014' 
+NUMBER_OF_WINNERS = 2
 
 def contest_duration(published) 
   start = DateTime.parse(BEGIN_OF_CONTEST)
@@ -31,5 +32,5 @@ entries = data_hash["graphql"]["hashtag"]["edge_hashtag_to_media"]["edges"].coll
 # find eligible entries
 eligible = entries.collect { |entry| entry if contest_duration(entry[:timestamp]) && not_us(entry[:owner]) }.compact
 
-# randomly selects 2 eligible entries
-puts eligible.sample(2)
+# randomly draws eligible entries for the contest
+puts eligible.sample(NUMBER_OF_WINNERS)

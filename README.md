@@ -1,7 +1,8 @@
 Instacontest was used at AccessYEG (2019) to select our instagram contest winners
 
+To run the contest (draws two entries)
 ```
-ruby ./lib/entries.rb
+ruby ./lib/draw.rb
 ```
 
 
